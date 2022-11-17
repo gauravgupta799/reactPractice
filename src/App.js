@@ -1,6 +1,7 @@
 import React, {createContext} from 'react';
 import './App.css';
 import ChildA from "./Components/ChildA";
+import UseMemo from "./UseMemo";
 
 const context1 = createContext();
 const context2 = createContext();
@@ -16,6 +17,7 @@ function App() {
           <ChildA/>
         </context2.Provider>
       </context1.Provider>
+      <UseMemo/>
     </div>
   );
 }
