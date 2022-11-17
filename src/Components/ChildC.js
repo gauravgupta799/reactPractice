@@ -4,6 +4,7 @@ import {context1,context2} from "../App";
 const ChildC = () => {
     return (
         <>
+         <h2>Get Data From App Component By Using the Consumer</h2>
         <context1.Consumer>
             {(name)=>{
                     return(
