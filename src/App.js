@@ -1,7 +1,8 @@
 import React, {createContext} from 'react';
 import './App.css';
-import ChildA from "./Components/ChildA";
-import UseMemo from "./UseMemo";
+// import ChildA from "./Components/ChildA";
+import UseCallback from './UseCallback';
+// import UseMemo from "./UseMemo";
 
 const context1 = createContext();
 const context2 = createContext();
@@ -14,10 +15,11 @@ function App() {
     <div className="App">
       <context1.Provider value={name}>
         <context2.Provider value={gender}>
-          <ChildA/>
+          {/* <ChildA/> */}
         </context2.Provider>
       </context1.Provider>
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      <UseCallback />
     </div>
   );
 }
