@@ -3,6 +3,7 @@ import './App.css';
 // import ChildA from "./Components/ChildA";
 import UseCallback from './UseCallback';
 // import UseMemo from "./UseMemo";
+import UseRef from "./UseRef";
 
 const context1 = createContext();
 const context2 = createContext();
@@ -20,6 +21,7 @@ function App() {
       </context1.Provider>
       {/* <UseMemo/> */}
       <UseCallback />
+      <UseRef/>
     </div>
   );
 }
