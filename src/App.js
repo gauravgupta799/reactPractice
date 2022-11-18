@@ -6,6 +6,7 @@ import UseCallback from './UseCallback';
 import UseRef from "./UseRef";
 import UseReducer from "./UseReducer";
 import UseEffect from './UseEffect';
+import ControlledComponent from './ControlledComponent';
 
 const context1 = createContext();
 const context2 = createContext();
@@ -26,6 +27,7 @@ function App() {
       <UseRef/>
       <UseReducer/>
       <UseEffect />
+      <ControlledComponent />
     </div>
   );
 }
