@@ -4,6 +4,7 @@ import './App.css';
 import UseCallback from './UseCallback';
 // import UseMemo from "./UseMemo";
 import UseRef from "./UseRef";
+import UseReducer from "./UseReducer";
 
 const context1 = createContext();
 const context2 = createContext();
@@ -22,6 +23,7 @@ function App() {
       {/* <UseMemo/> */}
       <UseCallback />
       <UseRef/>
+      <UseReducer/>
     </div>
   );
 }

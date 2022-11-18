@@ -1,3 +1,29 @@
 .App {
   text-align: center;
 }
+
+.btn-wrapper{
+   display:flex;
+   align-items: center;
+   justify-content:space-between;
+   width:400px;
+   margin:auto;
+}
+.btn-wrapper > button{
+  padding:5px 10px;
+  font-size:18px;
+  cursor:pointer;
+  color:white;
+}
+.btn-wrapper > button:nth-child(1){
+  background-color:rgb(60, 5, 112);
+}
+.btn-wrapper > button:nth-child(2){
+  background-color:coral;
+}
+.btn-wrapper > button:nth-child(3){
+  background-color:green;
+}
+.btn-wrapper > button:nth-child(4){
+  background-color:black;
+}
