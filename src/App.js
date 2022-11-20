@@ -1,6 +1,7 @@
 import React, {createContext} from 'react';
 import './App.css';
-import ParentCom from './PureComp/ParentCom';
+import FRParentInput from './ForwardRef/FRParentInput';
+// import ParentCom from './PureComp/ParentCom';
 // import ChildA from "./Components/ChildA";
 // import UseCallback from './UseCallback';
 // import UseMemo from "./UseMemo";
@@ -31,7 +32,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <ControlledComponent /> */}
       {/* <UncotrolledComponent/> */}
-      <ParentCom/>
+      {/* <ParentCom/> */}
+      <FRParentInput/>
     </div>
   );
 }
