@@ -1,5 +1,6 @@
 import React, {createContext} from 'react';
 import './App.css';
+import ParentCom from './PureComp/ParentCom';
 // import ChildA from "./Components/ChildA";
 // import UseCallback from './UseCallback';
 // import UseMemo from "./UseMemo";
@@ -7,7 +8,7 @@ import './App.css';
 // import UseReducer from "./UseReducer";
 // import UseEffect from './UseEffect';
 // import ControlledComponent from './ControlledComponent';
-import UncotrolledComponent from './UncotrolledComponent';
+// import UncotrolledComponent from './UncotrolledComponent';
 
 const context1 = createContext();
 const context2 = createContext();
@@ -24,12 +25,13 @@ function App() {
         </context2.Provider>
       </context1.Provider>
       {/* <UseMemo/> */}
-      <UseCallback />
-      <UseRef/>
-      <UseReducer/>
-      <UseEffect />
-      <ControlledComponent />
-      <UncotrolledComponent/>
+      {/* <UseCallback /> */}
+      {/* <UseRef/> */}
+      {/* <UseReducer/> */}
+      {/* <UseEffect /> */}
+      {/* <ControlledComponent /> */}
+      {/* <UncotrolledComponent/> */}
+      <ParentCom/>
     </div>
   );
 }
