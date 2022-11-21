@@ -3,6 +3,7 @@ import React from 'react'
 // import DocTitleTwo from './CustomDocTitle/DocTitleTwo'
 import CounterOne from "./CustomCounter/CounterOne"
 import CounterTwo from './CustomCounter/CounterTwo'
+import Input from "./CustomInput/Input"
 
 const Customindex =()=> {
   return (
@@ -11,6 +12,7 @@ const Customindex =()=> {
         {/* <DocTitleTwo /> */}
         <CounterOne />
         <CounterTwo/>
+        <Input />
     </div>
   )
 }
