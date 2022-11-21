@@ -1,5 +1,6 @@
 import React, {createContext} from 'react';
 import './App.css';
+import CustomIndex from './CustomHook/CustomIndex';
 import ClickCounter from './HOC/ClickCounter';
 import HoverCounter from './HOC/HoverCounter';
 // import Portal from './PortalDemo/Portal';
@@ -13,6 +14,7 @@ import HoverCounter from './HOC/HoverCounter';
 // import UseEffect from './UseEffect';
 // import ControlledComponent from './ControlledComponent';
 // import UncotrolledComponent from './UncotrolledComponent';
+
 
 const context1 = createContext();
 const context2 = createContext();
@@ -40,6 +42,7 @@ function App() {
       {/* <Portal/> */}
       <ClickCounter name="Smith"/>
       <HoverCounter name="John"/>
+      <CustomIndex />
     </div>
   );
 }
