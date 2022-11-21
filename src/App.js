@@ -1,5 +1,6 @@
 import React, {createContext} from 'react';
 import './App.css';
+import Portal from './PortalDemo/Portal';
 import FRParentInput from './ForwardRef/FRParentInput';
 // import ParentCom from './PureComp/ParentCom';
 // import ChildA from "./Components/ChildA";
@@ -34,6 +35,7 @@ function App() {
       {/* <UncotrolledComponent/> */}
       {/* <ParentCom/> */}
       <FRParentInput/>
+      <Portal/>
     </div>
   );
 }
