@@ -1,14 +1,18 @@
 import React from 'react'
-import DocTitleOne from './DocTitleOne'
-import DocTitleTwo from './DocTitleTwo'
+// import DocTitleOne from './CustomDocTitle/DocTitleOne'
+// import DocTitleTwo from './CustomDocTitle/DocTitleTwo'
+import CounterOne from "./CustomCounter/CounterOne"
+import CounterTwo from './CustomCounter/CounterTwo'
 
-const CustomIndex = () => {
+const Customindex =()=> {
   return (
     <div>
-        <DocTitleOne />
-        <DocTitleTwo/>
+        {/* <DocTitleOne /> */}
+        {/* <DocTitleTwo /> */}
+        <CounterOne />
+        <CounterTwo/>
     </div>
   )
 }
 
-export default CustomIndex
+export default Customindex

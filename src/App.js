@@ -1,8 +1,8 @@
 import React, {createContext} from 'react';
 import './App.css';
-import CustomIndex from './CustomHook/CustomIndex';
-import ClickCounter from './HOC/ClickCounter';
-import HoverCounter from './HOC/HoverCounter';
+import CustomIndex from './CustomHook/Customindex';
+// import ClickCounter from './HOC/ClickCounter';
+// import HoverCounter from './HOC/HoverCounter';
 // import Portal from './PortalDemo/Portal';
 // import FRParentInput from './ForwardRef/FRParentInput';
 // import ParentCom from './PureComp/ParentCom';
@@ -40,8 +40,8 @@ function App() {
       {/* <ParentCom/> */}
       {/* <FRParentInput/> */}
       {/* <Portal/> */}
-      <ClickCounter name="Smith"/>
-      <HoverCounter name="John"/>
+      {/* <ClickCounter name="Smith"/> */}
+      {/* <HoverCounter name="John"/> */}
       <CustomIndex />
     </div>
   );
