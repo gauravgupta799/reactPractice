@@ -1,7 +1,9 @@
 import React, {createContext} from 'react';
 import './App.css';
-import Portal from './PortalDemo/Portal';
-import FRParentInput from './ForwardRef/FRParentInput';
+import ClickCounter from './HOC/ClickCounter';
+import HoverCounter from './HOC/HoverCounter';
+// import Portal from './PortalDemo/Portal';
+// import FRParentInput from './ForwardRef/FRParentInput';
 // import ParentCom from './PureComp/ParentCom';
 // import ChildA from "./Components/ChildA";
 // import UseCallback from './UseCallback';
@@ -34,8 +36,10 @@ function App() {
       {/* <ControlledComponent /> */}
       {/* <UncotrolledComponent/> */}
       {/* <ParentCom/> */}
-      <FRParentInput/>
-      <Portal/>
+      {/* <FRParentInput/> */}
+      {/* <Portal/> */}
+      <ClickCounter name="Smith"/>
+      <HoverCounter name="John"/>
     </div>
   );
 }
