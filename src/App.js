@@ -4,7 +4,7 @@ import CustomIndex from './CustomHook/Customindex';
 import ClassCounterOne from './UseEffect/ClassCounterOne';
 import FuncCounterOne from './UseEffect/FuncCounterOne';
 import ClassMouse from "./UseEffect/ClassMouse"
-import HookMouse from "./UseEffect/HookMouse"
+import MouseContainer from "./UseEffect/MouseContainer";
 // import ClickCounter from './HOC/ClickCounter';
 // import HoverCounter from './HOC/HoverCounter';
 // import Portal from './PortalDemo/Portal';
@@ -50,7 +50,7 @@ function App() {
       {/* <ClassCounterOne/> */}
       {/* <FuncCounterOne/> */}
       {/* <ClassMouse/>  */}
-      <HookMouse/>
+     <MouseContainer/> 
     </div>
   );
 }
