@@ -5,6 +5,8 @@ import ClassCounterOne from './UseEffect/ClassCounterOne';
 import FuncCounterOne from './UseEffect/FuncCounterOne';
 import ClassMouse from "./UseEffect/ClassMouse"
 import MouseContainer from "./UseEffect/MouseContainer";
+import IntervalClassCounter from './UseEffect/IntervalClassCounter';
+import IntervalHookCounter from './UseEffect/IntervalHookCounter';
 // import ClickCounter from './HOC/ClickCounter';
 // import HoverCounter from './HOC/HoverCounter';
 // import Portal from './PortalDemo/Portal';
@@ -50,7 +52,9 @@ function App() {
       {/* <ClassCounterOne/> */}
       {/* <FuncCounterOne/> */}
       {/* <ClassMouse/>  */}
-     <MouseContainer/> 
+     {/* <MouseContainer/>  */}
+     <IntervalClassCounter/>
+     <IntervalHookCounter/>
     </div>
   );
 }
