@@ -1,6 +1,10 @@
 import React, {createContext} from 'react';
 import './App.css';
 import CustomIndex from './CustomHook/Customindex';
+import ClassCounterOne from './UseEffect/ClassCounterOne';
+import FuncCounterOne from './UseEffect/FuncCounterOne';
+import ClassMouse from "./UseEffect/ClassMouse"
+import HookMouse from "./UseEffect/HookMouse"
 // import ClickCounter from './HOC/ClickCounter';
 // import HoverCounter from './HOC/HoverCounter';
 // import Portal from './PortalDemo/Portal';
@@ -42,7 +46,11 @@ function App() {
       {/* <Portal/> */}
       {/* <ClickCounter name="Smith"/> */}
       {/* <HoverCounter name="John"/> */}
-      <CustomIndex />
+      {/* <CustomIndex /> */}
+      {/* <ClassCounterOne/> */}
+      {/* <FuncCounterOne/> */}
+      {/* <ClassMouse/>  */}
+      <HookMouse/>
     </div>
   );
 }

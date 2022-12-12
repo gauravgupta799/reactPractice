@@ -3,7 +3,7 @@ import FRInput from './FRInput'
 
 class FRParentInput extends Component {
     constructor(props) {
-        super(props)
+       super(props)
        this.inputRef = React.createRef();
     }
 
