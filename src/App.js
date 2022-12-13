@@ -7,6 +7,8 @@ import ClassMouse from "./UseEffect/ClassMouse"
 import MouseContainer from "./UseEffect/MouseContainer";
 import IntervalClassCounter from './UseEffect/IntervalClassCounter';
 import IntervalHookCounter from './UseEffect/IntervalHookCounter';
+import UseReducer from './UseReducer/UseReducer';
+import UseReducerObj from './UseReducer/UseReducerObj';
 // import ClickCounter from './HOC/ClickCounter';
 // import HoverCounter from './HOC/HoverCounter';
 // import Portal from './PortalDemo/Portal';
@@ -16,7 +18,6 @@ import IntervalHookCounter from './UseEffect/IntervalHookCounter';
 // import UseCallback from './UseCallback';
 // import UseMemo from "./UseMemo";
 // import UseRef from "./UseRef";
-// import UseReducer from "./UseReducer";
 // import UseEffect from './UseEffect';
 // import ControlledComponent from './ControlledComponent';
 // import UncotrolledComponent from './UncotrolledComponent';
@@ -53,8 +54,9 @@ function App() {
       {/* <FuncCounterOne/> */}
       {/* <ClassMouse/>  */}
      {/* <MouseContainer/>  */}
-     <IntervalClassCounter/>
-     <IntervalHookCounter/>
+     {/* <IntervalClassCounter/> */}
+     {/* <IntervalHookCounter/> */}
+     <UseReducerObj/>
     </div>
   );
 }

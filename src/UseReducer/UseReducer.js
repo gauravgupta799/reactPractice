@@ -1,5 +1,5 @@
 import React,{useReducer} from 'react';
-import "./App.css";
+import "../App.css";
 
 const initialState = 1;
 const reducer = (state= initialState, action) => {
