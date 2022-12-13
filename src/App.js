@@ -17,7 +17,8 @@ import UseReducer from './UseReducer/UseReducer';
 // import ChildA from "./Components/ChildA";
 // import UseCallback from './UseCallback';
 import ParentUCB from './UseCallback/ParentUCB';
-// import UseMemo from "./UseMemo";
+import UseMemo from "./UseMemoHook/UseMemo";
+import CounterMemo from './UseMemoHook/CounterMemo';
 // import UseRef from "./UseRef";
 // import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './ControlledComponent';
@@ -38,7 +39,7 @@ function App() {
           {/* <ChildA/> */}
         </context2.Provider>
       </context1.Provider>
-      {/* <UseMemo/> */}
+      <UseMemo/>
       {/* <UseCallback /> */}
       {/* <UseRef/> */}
       {/* <UseReducer/> */}
@@ -58,7 +59,8 @@ function App() {
      {/* <IntervalClassCounter/> */}
      {/* <IntervalHookCounter/> */}
      {/* <UseReducerObj/> */}
-     <ParentUCB/>
+     {/* <ParentUCB/> */}
+     <CounterMemo/>
     </div>
   );
 }
