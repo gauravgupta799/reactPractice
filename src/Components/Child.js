@@ -5,7 +5,7 @@ const Child = ({add}) => {
 
     const Result = useMemo(()=>{
         let output =0;
-        for(let i=0; i < 500_000_0000; i++){
+        for(let i=0; i < 500; i++){
             output ++;
         }
         return output;

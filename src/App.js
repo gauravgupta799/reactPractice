@@ -8,7 +8,7 @@ import MouseContainer from "./UseEffect/MouseContainer";
 import IntervalClassCounter from './UseEffect/IntervalClassCounter';
 import IntervalHookCounter from './UseEffect/IntervalHookCounter';
 import UseReducer from './UseReducer/UseReducer';
-import UseReducerObj from './UseReducer/UseReducerObj';
+// import UseReducerObj from './UseReducer/UseReducerObj';
 // import ClickCounter from './HOC/ClickCounter';
 // import HoverCounter from './HOC/HoverCounter';
 // import Portal from './PortalDemo/Portal';
@@ -16,9 +16,10 @@ import UseReducerObj from './UseReducer/UseReducerObj';
 // import ParentCom from './PureComp/ParentCom';
 // import ChildA from "./Components/ChildA";
 // import UseCallback from './UseCallback';
+import ParentUCB from './UseCallback/ParentUCB';
 // import UseMemo from "./UseMemo";
 // import UseRef from "./UseRef";
-// import UseEffect from './UseEffect';
+// import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './ControlledComponent';
 // import UncotrolledComponent from './UncotrolledComponent';
 
@@ -56,7 +57,8 @@ function App() {
      {/* <MouseContainer/>  */}
      {/* <IntervalClassCounter/> */}
      {/* <IntervalHookCounter/> */}
-     <UseReducerObj/>
+     {/* <UseReducerObj/> */}
+     <ParentUCB/>
     </div>
   );
 }
