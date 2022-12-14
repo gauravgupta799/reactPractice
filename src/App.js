@@ -15,14 +15,16 @@ import UseReducer from './UseReducer/UseReducer';
 // import FRParentInput from './ForwardRef/FRParentInput';
 // import ParentCom from './PureComp/ParentCom';
 // import ChildA from "./Components/ChildA";
-// import UseCallback from './UseCallback';
+// import UseCallback from './UseCallback/UseCallback';
 import ParentUCB from './UseCallback/ParentUCB';
 import UseMemo from "./UseMemoHook/UseMemo";
 import CounterMemo from './UseMemoHook/CounterMemo';
-// import UseRef from "./UseRef";
+import UseRef from "./UseRefHook/UseRef";
+import ClassTimer from './UseRefHook/ClassTimer';
+import HookTimer from './UseRefHook/HookTimer';
 // import UseEffect from './UseEffect/UseEffect';
-// import ControlledComponent from './ControlledComponent';
-// import UncotrolledComponent from './UncotrolledComponent';
+// import ControlledComponent from './CtrlUnctrlCom/ControlledComponent';
+// import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
 
 
 const context1 = createContext();
@@ -39,7 +41,7 @@ function App() {
           {/* <ChildA/> */}
         </context2.Provider>
       </context1.Provider>
-      <UseMemo/>
+      {/* <UseMemo/> */}
       {/* <UseCallback /> */}
       {/* <UseRef/> */}
       {/* <UseReducer/> */}
@@ -60,7 +62,9 @@ function App() {
      {/* <IntervalHookCounter/> */}
      {/* <UseReducerObj/> */}
      {/* <ParentUCB/> */}
-     <CounterMemo/>
+     {/* <CounterMemo/> */}
+      {/* <ClassTimer/> */}
+      <HookTimer/>
     </div>
   );
 }
