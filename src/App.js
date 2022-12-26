@@ -22,6 +22,7 @@ import CounterMemo from './UseMemoHook/CounterMemo';
 import UseRef from "./UseRefHook/UseRef";
 import ClassTimer from './UseRefHook/ClassTimer';
 import HookTimer from './UseRefHook/HookTimer';
+import Index from './Pages/Index';
 // import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './CtrlUnctrlCom/ControlledComponent';
 // import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
@@ -64,7 +65,8 @@ function App() {
      {/* <ParentUCB/> */}
      {/* <CounterMemo/> */}
       {/* <ClassTimer/> */}
-      <HookTimer/>
+      {/* <HookTimer/> */}
+      <Index/>
     </div>
   );
 }
