@@ -18,12 +18,14 @@ const SearchFilter = () => {
         const keyword = e.target.value;
         if(keyword !== ""){
             const results = products.filter((item)=>{
-                return item.title.includes(keyword.toLowerCase());
+                return item.title.toLowerCase().includes(keyword.toLowerCase());
             })
-            console.log("Res",results)
             setProducts(results)
         }else{
-            setProducts(products)
+            fetch(url)
+            .then(res => res.json())
+            .then((data) => setProducts(data));
+            // setProducts(products)
         }
         setName(keyword)
     }
@@ -43,7 +45,7 @@ const SearchFilter = () => {
             <div className="productsContainer">
               {
                 products && products.length > 0 ? (
-                    products.map(product=>(
+                    products.slice(0,11).map(product=>(
                     <div key={product.id} className="prdWrapper">
                         <div id = "prdtImage">
                             <img src={product.image} alt="productImage"/>
