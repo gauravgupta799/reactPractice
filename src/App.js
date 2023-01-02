@@ -23,6 +23,7 @@ import UseRef from "./UseRefHook/UseRef";
 import ClassTimer from './UseRefHook/ClassTimer';
 import HookTimer from './UseRefHook/HookTimer';
 import Index from './Pages/Index';
+import Pagination from './Components/Pagination/Pagination';
 // import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './CtrlUnctrlCom/ControlledComponent';
 // import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
@@ -66,7 +67,9 @@ function App() {
      {/* <CounterMemo/> */}
       {/* <ClassTimer/> */}
       {/* <HookTimer/> */}
-      <Index/>
+      {/* <Index/> */}
+
+      <Pagination/>
     </div>
   );
 }
