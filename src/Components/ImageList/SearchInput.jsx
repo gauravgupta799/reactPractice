@@ -13,8 +13,7 @@ class SearchInput extends Component {
     // Automatically bind the value of this for all the code inside the function
     handleFormSubmit=(event)=> {
         event.preventDefault();
-        this.props.onSerchSumbit(this.state.entry);
-        // console.log(this.state.entry)
+        this.props.onSerchSumbit(this.state.entry)
     }
 
     //onSubmit={this.handleFormSubmit.bind(this)}
