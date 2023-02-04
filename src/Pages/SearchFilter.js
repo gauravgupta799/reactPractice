@@ -29,7 +29,7 @@ const SearchFilter = () => {
         }
         setName(keyword)
     }
-     console.log("Photos",products)
+    //  console.log("Photos",products)
 	return (
 		<div>
 			<h1>Product Page</h1>

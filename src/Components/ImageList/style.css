@@ -1,20 +1,68 @@
+.main-div{
+    padding: 10px 0;
+    background:linear-gradient(to right,#c75647 ,#962c84, #294b6d);
+}
+h1{
+    color:white;
+    font-family: 'Oswald';
+}
 .image-container{
     margin-top: 1.5rem !important;
 }
 .imageWrapper{
     box-shadow:1px 0px 7px 2px rgba(0,0,0,0.4) !important;
-    margin:0.7rem !important;
+    margin:0.5rem auto !important;
     transition:0.3s ease-out;
-    width: 31%;
-    height: 40vh;
+    width:32%;
+    /* height: 40vh; */
     padding: 0.5px !important;
 }
 #Image{
     height: 100%;
     width: 100%;
 }
+#open-link{
+    height: 100%;
+}
 .imageWrapper:hover{
     cursor: pointer;
     transform:scale(1.01);
 }
+.search-container{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.form-container{
+    width: 100%;
+}
+.searchInput{
+    height: 50px;
+}
 
+@media (width <=590px){
+    .search-container{
+        width: 80vw;
+    }
+    .imageWrapper{
+        width:48%;
+        /* margin:0.5rem auto !important; */
+    }
+
+}
+@media (width <=350px){
+    .search-container{
+        width: 90vw;
+    }
+    .imageWrapper{
+        width:100%;
+        margin:0.2rem 0.3rem !important;
+    }
+}
+@media (width <=250px){
+    .search-container{
+        width: 90%;
+    }
+}

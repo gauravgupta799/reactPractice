@@ -25,6 +25,7 @@ import HookTimer from './UseRefHook/HookTimer';
 import Index from './Pages/Index';
 import Pagination from './Components/Pagination/Pagination';
 import ImageList from './Components/ImageList/ImageList';
+import Search from './Components/SearchFunc/Search';
 // import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './CtrlUnctrlCom/ControlledComponent';
 // import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
@@ -70,7 +71,8 @@ function App() {
       {/* <HookTimer/> */}
       {/* <Index/> */}
       {/* <Pagination/> */}
-      <ImageList/>
+      {/* <ImageList/> */}
+      <Search/>
     </div>
   );
 }

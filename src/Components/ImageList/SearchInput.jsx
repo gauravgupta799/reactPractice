@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css";
 
 class SearchInput extends Component {
     constructor(props) {
@@ -19,11 +20,12 @@ class SearchInput extends Component {
     //onSubmit={this.handleFormSubmit.bind(this)}
 	render() {
 		return (
-			<div className='ui segment'>
-				<form className='ui form' onSubmit={this.handleFormSubmit}>
+			<div className='search-container'>
+				<form className='ui form form-container' onSubmit={this.handleFormSubmit}>
 					<div className='field'>
 						<div className='ui massive icon input'>
 							<input type='text'
+                            className="searchInput"
                              placeholder='Search...' 
                             onChange={(e)=>this.setState({entry:e.target.value})}
                             value={this.state.entry}
