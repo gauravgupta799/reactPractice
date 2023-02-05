@@ -11,7 +11,7 @@ import UseReducer from './UseReducer/UseReducer';
 // import UseReducerObj from './UseReducer/UseReducerObj';
 // import ClickCounter from './HOC/ClickCounter';
 // import HoverCounter from './HOC/HoverCounter';
-// import Portal from './PortalDemo/Portal';
+import Portal from './PortalDemo/Portal';
 // import FRParentInput from './ForwardRef/FRParentInput';
 // import ParentCom from './PureComp/ParentCom';
 // import ChildA from "./Components/ChildA";
@@ -27,6 +27,8 @@ import Pagination from './Components/Pagination/Pagination';
 import ImageList from './Components/ImageList/ImageList';
 import Search from './Components/SearchFunc/Search';
 import Radios from './Components/RadiosFun/Radios';
+import PortalFunCom from './PortalDemo/PortalFunCom';
+import ToolMain from './PortalDemo/Tooltip/TooltipMain';
 // import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './CtrlUnctrlCom/ControlledComponent';
 // import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
@@ -74,7 +76,9 @@ function App() {
       {/* <Pagination/> */}
       {/* <ImageList/> */}
       {/* <Search/> */}
-      <Radios/>
+      {/* <Radios/> */}
+      {/* <PortalFunCom/> */}
+      <ToolMain/>
     </div>
   );
 }

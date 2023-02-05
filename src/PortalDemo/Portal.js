@@ -32,6 +32,7 @@ class Portal extends Component {
                         </Modal>
                     ): null}
                 </div>
+			
 			</div>
 		);
 	}
