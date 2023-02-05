@@ -26,6 +26,7 @@ import Index from './Pages/Index';
 import Pagination from './Components/Pagination/Pagination';
 import ImageList from './Components/ImageList/ImageList';
 import Search from './Components/SearchFunc/Search';
+import Radios from './Components/RadiosFun/Radios';
 // import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './CtrlUnctrlCom/ControlledComponent';
 // import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
@@ -72,7 +73,8 @@ function App() {
       {/* <Index/> */}
       {/* <Pagination/> */}
       {/* <ImageList/> */}
-      <Search/>
+      {/* <Search/> */}
+      <Radios/>
     </div>
   );
 }
