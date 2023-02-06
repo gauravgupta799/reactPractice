@@ -32,11 +32,12 @@ import ToolMain from './PortalDemo/Tooltip/TooltipMain';
 // import UseEffect from './UseEffect/UseEffect';
 // import ControlledComponent from './CtrlUnctrlCom/ControlledComponent';
 // import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
+import UseState from "./UseStateHook/UseState.js";
 
 
 const context1 = createContext();
 const context2 = createContext();
-console.log(context1);
+// console.log(context1);
 
 function App() {
   const name = "Gaurav Gupta";
@@ -78,7 +79,8 @@ function App() {
       {/* <Search/> */}
       {/* <Radios/> */}
       {/* <PortalFunCom/> */}
-      <ToolMain/>
+      {/* <ToolMain/> */}
+      <UseState/>
     </div>
   );
 }
