@@ -34,6 +34,7 @@ import UseEffect from './UseEffect/UseEffect';
 // import UncotrolledComponent from './CtrlUnctrlCom/UncotrolledComponent';
 import UseState from "./UseStateHook/UseState.js";
 import Navbar from "./Components/ResponsiveNav/Navbar";
+import Sidebar from "./Components/Sidebar/Sidebar";
 
 const context1 = createContext();
 const context2 = createContext();
@@ -71,7 +72,7 @@ function App() {
 			{/* <CounterMemo/> */}
 			{/* <ClassTimer/> */}
 			{/* <HookTimer/> */}
-			{/* <Index/> */}
+			<Index/>
 			{/* <Pagination/> */}
 			{/* <ImageList/> */}
 			{/* <Search/> */}
@@ -79,7 +80,8 @@ function App() {
 			{/* <PortalFunCom/> */}
 			{/* <ToolMain/> */}
 			{/* <UseState /> */}
-			<Navbar/>
+			{/* <Navbar/> */}
+			{/* <Sidebar/> */}
 		</div>
 	);
 }
